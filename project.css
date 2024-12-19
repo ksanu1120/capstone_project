@@ -1,0 +1,425 @@
+body{
+    min-height: 900px;
+    padding: 0px 48px 0px 48px;
+    margin: 0 auto;
+    background-color: #ECF6FE;
+    }
+    .header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 1416px;
+    height: 48px;
+    padding: 16px 0px 16px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #440A8F0F;
+    }
+    .brand{
+        font-family: 'Syne', sans-serif;
+    }
+    .logo{
+        font-family: Syne;
+        font-size: 42px;
+        font-weight: 800;
+        line-height: 42px;
+        letter-spacing: -0.04em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        
+    }
+    .pagelinks{
+    font-family: Lexend Exa;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    display: flex;
+    gap: 32px;
+    }
+    .divider{
+        border: 1px solid #00000029;
+        width: 1512px;
+        margin-left: -53px;
+    }
+    .container{
+        width: 1416px;
+        height: 4261px;
+        align-content: center;
+    }
+    .maincontainer{
+        width: 1416px;
+        height: 4165px;
+    }
+    .landingpage{
+        width: 1416px;
+        height: 960px;
+        padding: 96px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+    }
+    .textwelcome{
+        font-family: Lexend Exa;
+        font-size: 120px;
+        font-weight: 300;
+        line-height: 120px;
+        letter-spacing: -0.02em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+    .img1{
+        height: 672px;
+    }
+    .personal{
+        width: 1416px;
+        height: 1191px;
+    }
+    .row1{
+        width: 1416px;
+        height: 333px;
+        display: flex;
+        flex-direction: row;
+        padding: 48px 0;
+        justify-content: space-around;
+    }
+    .row2{
+        width: 1416px;
+        height: 333px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-bottom: 48px;
+    }
+    .row3{
+        width: 1416px;
+        height: 333px;
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 48px;
+        justify-content: space-around;
+    }
+    .project1{
+        width: 416px;
+        height: 333px;
+        gap: 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .pimg{
+        width: 416px;
+        height: 273px;
+    }
+    .ptext{
+        width: 416px;
+        height: 48px;
+        display: flex;
+        flex-direction: column;
+    }
+    .ptext1{
+        width: 416px;
+        height: 24px;
+        font-family: Newsreader;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+    .ptext2{
+        width: 416px;
+        height: 24px;
+        font-family: Newsreader;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #00000099;
+    
+    
+    }
+    .aboutsection{
+        width: 1416px;
+        height: 452px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .abouttext{
+        font-family: Lexend Exa;
+        font-size: 48px;
+        font-weight: 300;
+        line-height: 52px;
+        letter-spacing: -0.01em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        width: 900px;
+        height: 260px;
+        max-width: 900px;
+        gap: 0px;
+        opacity: 0px;
+    }
+    .description{
+        width: 1416px;
+        height: 1074px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 48px;
+    }
+    .checkouttext{
+        width: 1416px;
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 48px;
+    }
+    .ctext{
+        width: 1260px;
+        height: 116px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .ctext1{
+        font-family: Lexend Exa;
+        font-size: 64px;
+        font-weight: 300;
+        line-height: 68px;
+        letter-spacing: -0.02em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+    .ctext2{
+        font-family: Newsreader;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: -0.005em;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+    .cbutton{
+        width: 112px;
+        height: 24px;
+        border-radius: 8px;
+        background-color: #AD7C00;
+        padding: 16px 24px;
+    }
+    .cbtext{
+        font-family: Lexend Exa;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        height: 24px;
+        width: 112px;
+        color: #FFFFFF;
+        
+    }
+    .artistdrawing{
+        width: 1416px;
+        height: 756px;
+        margin-top: 48px;
+    }
+    .divider2{
+        border: 1px solid #00000029;
+        width: 1512px;
+        margin-left: -53px;
+        margin-top: 48px;
+    }
+    .paragraph{
+        width: 1416px;
+        height: 250px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 120px;
+    }
+    .pspace{
+        width: 648px;
+        height: 154px;
+    }
+    .paragraphtext{
+        font-family: Newsreader;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: -0.005em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        width: 648px;
+        height: 154px;
+    }
+    .footer{
+        width: 1416px;
+        height: 56px;
+        padding-top: 96px;
+        padding-bottom: 24px;
+    }
+    .fcontainer{
+        width: 1416px;
+        height: 56px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .ftext{
+        font-family: Lexend Exa;
+        font-size: 28px;
+        font-weight: 300;
+        line-height: 32px;
+        letter-spacing: -0.01em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        width: 305px;
+        height: 32px;
+        color: #00000099;
+    
+    }
+    .contectme{
+        width: 134px;
+        height: 20px;
+        padding: 16px 24px;
+        border-radius: 8px ;
+        border: 2px solid #00000029;
+    }
+    .contectmetext{
+        font-family: Lexend Exa;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        width: 138px;
+        height: 24px;
+    }
+    .class{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .testimonials-section {
+        padding: 20px;
+        max-width: 100%;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        white-space: nowrap;
+      }
+      
+      .testimonials-container {
+        display: flex;
+        gap: 15px;
+        padding: 10px;
+      }
+      
+      .testimonial {
+        flex: 0 0 150px;
+        height: 200px;
+        width: 300px;
+        background-color: #fff;
+        border: 2px solid #cfcfea;
+        border-radius: 8px;
+        padding: 10px;
+        text-align: center;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+        cursor: pointer;
+      }
+      
+      .testimonial:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+      }
+      
+      .testimonial img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+        transition: transform 0.3s;
+      }
+      
+      .testimonial img:hover {
+        transform: scale(1.1);
+      }
+      
+      .testimonial h3 {
+        font-size: 0.9em;
+        color: #3e1571;
+        margin: 5px 0 3px;
+      }
+      
+      .testimonial .title {
+        font-size: 0.7em;
+        color: #6b6b8a;
+        margin-bottom: 5px;
+      }
+      
+      .testimonial .description {
+        font-size: 0.7em;
+        color: #555;
+        line-height: 1.2;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      
+      .testimonials-section::-webkit-scrollbar {
+        height: 8px;
+      }
+      
+      .testimonials-section::-webkit-scrollbar-thumb {
+        background: #3e1571;
+        border-radius: 4px;
+      }
+      
+      .testimonials-section::-webkit-scrollbar-track {
+        background: #cfcfea;
+      }
+      
+      .services-section {
+        display: flex;
+        justify-content: space-around;
+        max-width: 1200px;
+        padding: 20px;
+      }
+      
+      .services-title {
+        font-size: 24px;
+        color: #4a148c;
+        margin-right: 40px;
+      }
+      
+      .services-list {
+        display: flex;
+        gap: 50px;
+      }
+      
+      .services-column {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      .services-column li {
+        font-size: 18px;
+        color: #4a148c;
+        margin-bottom: 10px;
+      }
+      
